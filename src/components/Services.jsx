@@ -1,5 +1,9 @@
 import sampleGif from "../assets/sample.jpg"
-export default function Services() {
+import { useScrollToTop } from "../hooks/useScrollToTop";
+
+export default function Services() {    
+    useScrollToTop();
+
     const services = [
         {
             type: "video",
@@ -48,7 +52,7 @@ export default function Services() {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800 hover:border-white-500 transition-all duration-500 hover:-translate-y-2 group"
+                            className="bg-zinc-900 rounded-xl overflow-hidden border border-zinc-800 hover:border-white-500 transition-all duration-500 hover:-translate-y-2 group"
                         >
                             {/* Video */}
                             {service.type === "video" && (

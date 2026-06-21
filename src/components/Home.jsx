@@ -1,5 +1,9 @@
 import HomeBanner from '../assets/home banner gif.mp4'
+import { useScrollToTop } from '../hooks/useScrollToTop';
+
 export default function Home() {
+    useScrollToTop();
+
     return (
         <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-6 text-white">
 

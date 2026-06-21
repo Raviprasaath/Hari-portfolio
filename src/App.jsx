@@ -8,6 +8,7 @@ import PageNotFound from './components/PageNotFound';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
+      
       <Route path='/' element={<RootLayouts />}>
         <Route index element={<Home />} />
         <Route path='portfolio' element={<Portfolio />} />
