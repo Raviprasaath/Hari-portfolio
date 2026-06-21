@@ -31,6 +31,15 @@ export default function Header() {
         </Link>
 
         <Link
+          to="/services"
+          className="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px]
+          after:w-0 after:bg-white after:transition-all after:duration-300
+          hover:after:w-full"
+        >
+          Services
+        </Link>
+
+        <Link
           to="/portfolio"
           className="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px]
           after:w-0 after:bg-white after:transition-all after:duration-300
