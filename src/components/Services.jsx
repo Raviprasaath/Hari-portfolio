@@ -8,13 +8,19 @@ export default function Services() {
         {
             type: "video",
             title: "Product Visualization",
-            video: "https://www.youtube.com/embed/ScMzIvxBSi4",
+            video: "https://www.youtube.com/embed/NM600z8McII",
             desc: "High-quality cinematic renders and animations..."
         },
+        // {
+        //     type: "text",
+        //     title: "Automotive CGI",
+        //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+        // },
         {
-            type: "text",
-            title: "Automotive CGI",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+            type: "image",
+            title: "Interactive 3D Solutions",
+            image: sampleGif,
+            desc: "Photo-real product visuals designed for marketing..."
         },
         {
             type: "image",
@@ -25,7 +31,7 @@ export default function Services() {
         {
             type: "video",
             title: "VR/MR/XR Development",
-            video: "https://www.youtube.com/embed/jNQXAC9IVRw",
+            video: "https://www.youtube.com/embed/PhxfspwMdww",
             desc: "Dynamic storytelling through smooth motion graphics..."
         },
         {
