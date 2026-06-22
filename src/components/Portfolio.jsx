@@ -85,7 +85,7 @@ export default function Portfolio() {
         setIsSubmitting(true);
 
         try {
-            const res = await fetch("http://localhost:5000/send-mail", {
+            const res = await fetch("https://dimen-x-studios-backend.vercel.app/send-mail", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

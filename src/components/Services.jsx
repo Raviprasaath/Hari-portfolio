@@ -8,7 +8,7 @@ export default function Services() {
         {
             type: "video",
             title: "Product Visualization",
-            video: "https://www.youtube.com/embed/NM600z8McII",
+            video: "https://www.youtube.com/embed/KqTA1gMBdRg",
             desc: "High-quality cinematic renders and animations..."
         },
         // {
@@ -32,7 +32,7 @@ export default function Services() {
             type: "video",
             title: "VR/MR/XR Development",
             video: "https://www.youtube.com/embed/PhxfspwMdww",
-            desc: "Dynamic storytelling through smooth motion graphics..."
+            desc: "Dynamic storytelling through smooth motion graphics Dynamic storytelling through smooth motion graphics Dynamic storytelling through smooth motion graphics Dynamic storytelling through smooth motion graphics Dynamic storytelling through smooth motion graphics Dynamic storytelling through smooth motion graphics..."
         },
         {
             type: "image",
