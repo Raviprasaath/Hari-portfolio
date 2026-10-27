@@ -51,7 +51,7 @@ export default function Footer() {
               className="flex items-center gap-2 transition hover:text-gray-300"
             >
               <Mail size={18} />
-              <span>info@dimenxstudios.com</span>
+              <span>harijeyaselan@gmail.com</span>
             </a>
 
             <a

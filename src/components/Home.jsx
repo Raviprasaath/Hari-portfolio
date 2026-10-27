@@ -41,7 +41,7 @@ export default function Home() {
                     <p>
                         At{" "}
                         <span className="text-white font-semibold">
-                            DimenX Studios
+                            Concentric Visuals
                         </span>
                         , we optimize CAD and bring automotive ideas to life
                         through high-end visualization.
