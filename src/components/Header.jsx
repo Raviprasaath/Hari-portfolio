@@ -14,39 +14,39 @@ export default function Header() {
       >
         <img
           src={Logo}
-          className="w-32 md:w-44 object-contain"
+          className="w-48 md:w-84 object-contain"
           alt="Logo"
         />
       </Link>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex gap-12 text-white text-lg font-medium">
-        <Link
+        {/* <Link
           to="/"
           className="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px]
           after:w-0 after:bg-white after:transition-all after:duration-300
           hover:after:w-full"
         >
           Home
-        </Link>
+        </Link> */}
 
-        <Link
+        {/* <Link
           to="/services"
           className="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px]
           after:w-0 after:bg-white after:transition-all after:duration-300
           hover:after:w-full"
         >
           Services
-        </Link>
+        </Link> */}
 
-        <Link
+        {/* <Link
           to="/portfolio"
           className="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px]
           after:w-0 after:bg-white after:transition-all after:duration-300
           hover:after:w-full"
         >
           Portfolio
-        </Link>
+        </Link> */}
       </nav>
 
       {/* Mobile Menu Button */}
